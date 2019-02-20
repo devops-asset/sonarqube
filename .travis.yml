@@ -6,8 +6,7 @@ addons:
   sonarcloud:
     organization: "sonarcloud"
     token:
-      secure: "b2062e1f8fd4a8bf179eed6ca85253f5ed8f2082"
-
+      secure: ${SONAR_TOKEN1}
 jdk:
   - oraclejdk8
 
@@ -16,8 +15,7 @@ script:
   - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar \
   -Dsonar.projectKey=devops-asset_sonarqube \
   -Dsonar.organization=devops-asset \
-  -Dsonar.host.url=https://sonarcloud.io \
-  -Dsonar.login=f0e5817902934dcd54eac7c11929d3cce99e53a1
+  -Dsonar.host.url=https://sonarcloud.io 
 
 cache:
   directories:
