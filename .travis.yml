@@ -12,8 +12,8 @@ jdk:
 script:
  // - mvn -q sonar:sonar
  - mvn clean verify sonar:sonar
- - mvn clean install
- - mvn sonar:sonar
+// - mvn clean install
+// - mvn sonar:sonar
  
 cache:
   directories:
