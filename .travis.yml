@@ -10,7 +10,11 @@ addons:
 jdk:
   - oraclejdk8
 script:
-  - mvn -q sonar:sonar
+ // - mvn -q sonar:sonar
+ - mvn clean verify sonar:sonar
+ - mvn clean install
+ - mvn sonar:sonar
+ 
 cache:
   directories:
     - '$HOME/.sonar/cache'
