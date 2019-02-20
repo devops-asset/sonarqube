@@ -4,13 +4,17 @@ sudo: required
 addons:
   sonarcloud:
     organization: "devops-asset"
-    token: $SONAR_TOKEN1
+//    token: $SONAR_TOKEN1
 
 jdk:
   - oraclejdk8
 
 script:
-  - sonar-scanner
+  - mvn sonar:sonar \
+  -Dsonar.projectKey=devops-asset_sonarqube \
+  -Dsonar.organization=devops-asset \
+  -Dsonar.host.url=https://sonarcloud.io \
+  -Dsonar.login=10b229dd90da517b059e7df9c997dea56245c09d
 
 cache:
   directories:
