@@ -10,7 +10,7 @@ addons:
 jdk:
   - oraclejdk8
 script:
- - mvn clean verify sonar:sonar
+ - mvn clean package sonar:sonar
 
 cache:
   directories:
