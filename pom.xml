@@ -4,9 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.sonarqube</groupId>
-  <artifactId>parent</artifactId>
-  <packaging>pom</packaging>
+  <artifactId>pbuild.parentarent</artifactId>
   <version>${my.version}-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
   <name>Example of SonarQube Scanner for Maven + Code Coverage by UT and IT</name>
 
@@ -26,6 +26,7 @@
          the same report, so that, it will give the cross-module code coverage. -->
     <sonar.jacoco.itReportPath>${project.basedir}/../target/jacoco-it.exec</sonar.jacoco.itReportPath>
     <sonar.groovy.binaries>target/classes</sonar.groovy.binaries>
+    <my.version>1.0-SNAPSHOT</my.version>
   </properties>
 
   <dependencies>
