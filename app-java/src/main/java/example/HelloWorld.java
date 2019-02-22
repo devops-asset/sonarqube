@@ -3,19 +3,18 @@ package example;
 public class HelloWorld {
 
   public void coveredByUnitTest() {
-    logger.log("coveredByUnitTest1");
-    logger.log("coveredByUnitTest2");
-    logger.log("My Message");
+    System.out.println("coveredByUnitTest1");
+    System.out.println("coveredByUnitTest2");
   }
 
   public void coveredByIntegrationTest() {
-    logger.log("coveredByIntegrationTest1");
-    logger.log("coveredByIntegrationTest2");
-    logger.log("coveredByIntegrationTest3");
+    System.out.println("coveredByIntegrationTest1");
+    System.out.println("coveredByIntegrationTest2");
+    System.out.println("coveredByIntegrationTest3");
   }
 
   public void notCovered() {
-    logger.log("notCovered");
+    System.out.println("notCovered");
   }
 
 }
