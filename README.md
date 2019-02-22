@@ -13,4 +13,7 @@ Usage
         mvn clean install sonar:sonar
         
 Sonar coverage Report updated in SonarCloud: 
-SonarQube-output.PNG https://github.com/devops-asset/sonarqube/blob/master/SonarQube-output.PNG 
+
+SonarQube-output.PNG
+=====
+![alt text](https://github.com/devops-asset/sonarqube/blob/master/SonarQube-output.PNG)
