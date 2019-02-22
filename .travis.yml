@@ -2,12 +2,12 @@ language: java
 sudo: false
 install: true
 
->addons:
-  sonarcloud:
-    organization: "devops-asset"
-    projectKey: "devops-asset_sonarqube"
-    token:
-      secure: "fefecab8f1786bcec15479e780bf2ad0d4729a8f"!
+#addons:
+#  sonarcloud:
+ #   organization: "devops-asset"
+  #  projectKey: "devops-asset_sonarqube"
+   # token:
+    #  secure: "fefecab8f1786bcec15479e780bf2ad0d4729a8f"!
 jdk:
   - oraclejdk8
 
