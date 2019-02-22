@@ -11,3 +11,6 @@ Usage
 * Build the project, execute all the tests and analyze the project with SonarQube Scanner for Maven:
 
         mvn clean install sonar:sonar
+        
+Sonar coverage Report updated in SonarCloud: 
+SonarQube-output.PNG https://github.com/devops-asset/sonarqube/blob/master/SonarQube-output.PNG 
