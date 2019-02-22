@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.sonarqube</groupId>
-  <artifactId>pbuild.parentarent</artifactId>
+  <artifactId>build.parentarent</artifactId>
   <version>${my.version}-SNAPSHOT</version>
   <packaging>pom</packaging>
 
