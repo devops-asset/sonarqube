@@ -5,6 +5,7 @@ install: true
 addons:
   sonarcloud:
     organization: "devops-asset"
+    projectKey: "devops-asset_sonarqube"
     token:
       secure: $SONAR_TOKEN
 
