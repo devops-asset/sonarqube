@@ -6,7 +6,7 @@
   <groupId>org.sonarqube</groupId>
   <artifactId>parent</artifactId>
   <packaging>pom</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>${my.version}-SNAPSHOT</version>
 
   <name>Example of SonarQube Scanner for Maven + Code Coverage by UT and IT</name>
 
