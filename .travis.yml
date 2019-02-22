@@ -2,20 +2,18 @@ language: java
 sudo: false
 install: true
 
-addons:
+>addons:
   sonarcloud:
     organization: "devops-asset"
     projectKey: "devops-asset_sonarqube"
     token:
-      secure: "fefecab8f1786bcec15479e780bf2ad0d4729a8f"
-
+      secure: "fefecab8f1786bcec15479e780bf2ad0d4729a8f"!
 jdk:
   - oraclejdk8
 
 script:
   # JaCoCo is used to have code coverage, the agent has to be activated
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar 
-  #-Dsonar.projectKey=devops-asset_sonarqube -Dsonar.organization=devops-asset -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=$SONAR_TOKEN
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar -Dsonar.projectKey=devops-asset_sonarqube -Dsonar.organization=devops-asset -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=$SONAR_TOKEN
 
 cache:
   directories:
