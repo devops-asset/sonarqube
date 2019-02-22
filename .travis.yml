@@ -7,7 +7,7 @@ addons:
     organization: "devops-asset"
     projectKey: "devops-asset_sonarqube"
     token:
-      secure: $SONAR_TOKEN
+      secure: "$SONAR_TOKEN"
 
 jdk:
   - oraclejdk8
