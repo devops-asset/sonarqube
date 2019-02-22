@@ -4,8 +4,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.sonarqube</groupId>
-  <artifactId>build.parent</artifactId>
-  <version>${my.version}</version>
+  <artifactId>parent</artifactId>
+  <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Example of SonarQube Scanner for Maven + Code Coverage by UT and IT</name>
