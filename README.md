@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/devops-asset/sonarqube.svg?branch=master)]
+![Build Status](https://travis-ci.com/devops-asset/sonarqube.svg?branch=master)
 
 
 This example demonstrates how to collect code coverage by integration tests, tests are located in a separate Java Maven module.
