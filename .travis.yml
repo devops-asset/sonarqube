@@ -15,7 +15,7 @@ script:
   # JaCoCo is used to have code coverage, the agent has to be activated
   - mvn org.jacoco:jacoco-maven-plugin:prepare-agent clean package sonar:sonar -Dsonar.projectKey=devops-asset_sonarqube -Dsonar.organization=devops-asset -Dsonar.host.url=https://sonarcloud.io -Dsonar.token=$SONAR_TOKEN
   # Adding Sonar Scan 
-  - sonar-scanner 
+  #- sonar-scanner 
 
 cache:
   directories:
